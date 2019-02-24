@@ -1,0 +1,45 @@
+<?php
+$txt = array("IWANNAWEB" => "IWANNAWEB");
+$txt["index_title"] = "Experimentează libertatea internetului | iwannaweb.ro";
+$txt["index_keywords"] = "cluj web, site cluj, web design, optimizare site, creare site, web designer, realizare site, promovare site";
+$txt["index_description"] = "Web design, creare site si optimizare site Cluj, Bistrita, Alba, Mures, Salaj, Bihor, Arad. Realizare site, promovare site - Cluj web designer.";
+$txt["webdev_title"] = "Experimentează libertatea internetului | iwannaweb.ro";
+$txt["webdev_keywords"] = "cluj web, site cluj, web design, optimizare site, creare site, web designer, realizare site, promovare site";
+$txt["webdev_description"] = "Web design, creare site si optimizare site Cluj, Bistrita, Alba, Mures, Salaj, Bihor, Arad. Realizare site, promovare site - Cluj web designer.";
+$txt["webdevservices_title"] = "Experimentează libertatea internetului | iwannaweb.ro";
+$txt["webdevservices_keywords"] = "cluj web, site cluj, web design, optimizare site, creare site, web designer, realizare site, promovare site";
+$txt["webdevservices_description"] = "Web design, creare site si optimizare site Cluj, Bistrita, Alba, Mures, Salaj, Bihor, Arad. Realizare site, promovare site - Cluj web designer.";
+$txt["webdevpricing_title"] = "Experimentează libertatea internetului | iwannaweb.ro";
+$txt["webdevpricing_keywords"] = "cluj web, site cluj, web design, optimizare site, creare site, web designer, realizare site, promovare site";
+$txt["webdevpricing_description"] = "Web design, creare site si optimizare site Cluj, Bistrita, Alba, Mures, Salaj, Bihor, Arad. Realizare site, promovare site - Cluj web designer.";
+$txt["webdevsoftware_title"] = "Experimentează libertatea internetului | iwannaweb.ro";
+$txt["webdevsoftware_keywords"] = "cluj web, site cluj, web design, optimizare site, creare site, web designer, realizare site, promovare site";
+$txt["webdevsoftware_description"] = "Web design, creare site si optimizare site Cluj, Bistrita, Alba, Mures, Salaj, Bihor, Arad. Realizare site, promovare site - Cluj web designer.";
+$txt["home"] = "ACASĂ";
+$txt["webdev"] = "DEZVOLTARE WEB";
+$txt["portfolio"] = "PORTOFOLIU";
+$txt["crypto"] = "CRYPTOMONEDE";
+$txt["blog"] = "BLOG";
+$txt["contact"] = "CONTACT";
+$txt["services"] = "SERVICII";
+$txt["pricing"] = "PREȚURI";
+$txt["software"] = "SOFTWARE";
+$txt["archive"] = "ARHIVĂ";
+$txt["search"] = "CAUTĂ";
+$txt["lang_menu_alt"] = "ROMÂNĂ";
+$txt["webdev_small"] = "Dezvoltare web";
+$txt["news"] = "Noutăți";
+$txt["free_soft"] = "Software gratuit";
+$txt["ask_help"] = "Solicită ajutor";
+$txt["crypto_small"] = "Cryptomonede";
+$txt["info"] = "Informații";
+$txt["trends"] = "Trenduri";
+$txt["twitter_iwannacrypto"] = "@iwannaCrypto";
+$txt["social"] = "Social";
+$txt["blog_small"] = "Blog";
+$txt["recomm"] = "Recomandări";
+$txt["telegram"] = "Telegram";
+$txt["contact_us"] = "Contactează-ne";
+$txt["slogan"] = "Experimentează libertatea internetului";
+
+?>

@@ -1,0 +1,76 @@
+<div class="container">
+  <div class="col-sm-9">
+    <h2>Imbunatatirea vitezei calculatorului - Windows 7</h2>
+    <div class="post_meta">
+      <span class="cat">Postat la 16 septembrie 2013 </span> | <em>Categoria: IT Software</em>
+    </div>
+    <img src="http://www.iwannaweb.ro/blog/assets/2013/09/16/windows_7.jpg"  alt="webdesign in Cluj Napoca | blog securitate IT"/>
+    <p>Nu rareori se intampla sa fim iritati de lentoarea calculatorului personal. Aplicatii care se deschid 
+	greu, ferestre care nu se inchid, mesaje de eroare absurde, celebrele ecrane albastre (bluescreen), toate 
+	acestea ne dau batai de cap.</p>
+	<p>Daca avem un calculator lent, de cele mai multe ori alegem solutia cea mai "directa" - reinstalarea 
+	sistemului de operare. Alegem sa "ne punem alt Windows", renuntand la toate setarile personale, la programe 
+	instalate, chiar la poze si fisiere personale.</p>
+	<p>Aceasta abordare este, de cele mai multe ori, cea falimentara. Mai jos o sa va prezentam un tutorial 
+	complet despre cum sa imbunatatiti viteza calculatorului dumneavoastra, eliminand in acelasi timp erorile 
+	care va dau atata bataie de cap.</p>
+	<ul>
+	  <li>Primul pas ar fi sa descarcati si sa instalati un utilitar de curatire a discului si a registrilor. Noi va recomandam CCleaner - il puteti descarca de pe pagina <a href="http://www.piriform.com/ccleaner/download/standard">Piroform</a>, un utilitar de optimizare a calculatorului si de curatare a spatiului de pe disc si a registrilor. Instalarea e simpla, pe principiul "I agree" &gt;&gt; "Next" &gt;&gt; "Finish".</li>
+	  <li>Apoi rulati CCleaner si executati mai intai optiunea <u>Cleaner</u> ("Analyze", iar atunci cand analiza 
+	  este completa, alegeti "Run Cleaner"):<br/>
+	  <img src="http://www.iwannaweb.ro/blog/assets/2013/09/16/cleaner_win7.jpg" alt="stergere fisiere temporare Windows 7 - CCleaner"/></li>
+	  <li>Urmeaza optiunea "Registry", care va curata registrii de inregistrarile corupte, incomplete sau fara 
+	  destinatie ("Scan for issues" urmat de "Fix selected issues" - ar fi indicat sa va faceti un backup dupa 
+	  registrii, in caz ca ceva merge rau, dar de obicei nu am intalnit astfel de situatii):<br/>
+	  <img src="http://www.iwannaweb.ro/blog/assets/2013/09/16/registry_win7.jpg" alt="stergere registrii Windows 7 - CCleaner"/></li>
+	  <li>Urmeaza optiunea "Tools", pe care o puteti folosi pentru a dezinstala programele care nu au fost corect 
+	  dezinstalate (si care prin urmare provoaca erori) sau de care nu mai aveti nevoie (prin urmare, programe 
+	  inutile care va incetinesc calculatorul):<br/>
+	  <img src="http://www.iwannaweb.ro/blog/assets/2013/09/16/tools_win7.jpg" alt="dezinstalare programe Windows 7 - CCleaner"/></li>
+	  <li>Alte 2 optiuni intersante sunt "Startup" - care va permite sa alegeti programele care pornesc odata cu 
+	  Windows (va sfatuim sa folositi aceasta optiune numai daca sunteti utilizatori avansati ai Windows 7)- si 
+	  "Drive Wiper" - un utilitar cu care puteti sterge complet un drive (tineti minte ca fisierele 
+	  sterse pot fi recuperate, chiar si dupa formatare; acest utilitar suprascrie cu "zero" un disc, eliminand 
+	  orice urma a fisierelor dumneavoastra - indicat in cazul in care vindeti vechiul HDD / USB flash si nu vreti 
+	  ca noul posesor sa poata recupera vechile dumneavoastra date).</li>
+	  <li>Dupa ce ati terminat de curatat calculatorul cu CCleaner, ar fi indicat un restart.</li>
+	  <li>Deschideti o fereastra "Command Prompt": <em>Start</em> &gt;&gt; <em>Run</em> &gt;&gt; tastati <em>cmd</em> 
+	  si apasati <em>ENTER</em>. In aceasta fereastra introduceti comanda <em>sfc /scannow</em>:<br/>
+	  <img src="http://www.iwannaweb.ro/blog/assets/2013/09/16/cmd.jpg" alt="command prompt in Windows 7"/><br/>
+	  Aceasta comanda va verifica toate fisierele protejate ale sistemului si le va corecta. Indata ce verificarea este 
+	  completa, va sfatuim sa restartati calculatorul.</li>
+	  <li>Acum ar fi momentul cel mai prielnic pentru o defragmentare. Fragmentarea este acel proces in care fisierele sunt 
+	  scrise "in bucati separate" pe disc, provocand o viteza redusa de accesare a datelor. Pentru defragmentare mergeti la 
+	  <em>Start</em> &gt;&gt; <em>Run</em> si exacutati comanda urmatoare:<em>%windir%&#92;system32&#92;dfrgui.exe</em>. In 
+	  fereastra <em>Disk defragmenter</em> alegeti discul pe care doriti sa il defragmentati si apasati "Defragment disk":<br/>
+	  <img src="http://www.iwannaweb.ro/blog/assets/2013/09/16/defrag.jpg" alt="defragmentare disc in Windows 7"/></li>
+	  <li>Imediat ce se termina defragmentarea, deschideti o fereastra <em>Command Prompt</em> (<em>Start</em> &gt;&gt; 
+	  <em>Run</em> &gt;&gt; tastati <em>cmd</em> si apasati <em>ENTER</em>). In aceasta fereastra, introduceti comanda:
+	  <em>CHKDSK /R /F C:</em>, unde C: este discul pe care doriti sa il verificati de erori, cu utilitarul <u>CHecKDiSK</u>:<br/>
+	  <img src="http://www.iwannaweb.ro/blog/assets/2013/09/16/chkdsk.jpg" alt="disk check Windows 7 - CHKDSK"/><br/>
+	  Vi se va propune sa programati CHKDSK pentru urmatorul restart al sistemului. Tastati <em>Y</em>, apoi <em>ENTER</em>.<br/><br/></li>
+	  <li>Apoi restartati sistemul pentru o ultima data. Dupa ce porneste Windows-ul, veti fi anuntati ca se porneste un CHKDSK. 
+	  Nu apasati nimic, astfel utilitarul va porni verificarea discului, cu restaurarea datelor <em>(/R)</em> si repararea sectoarelor 
+	  defecte <em>(/F)</em>.</li>
+	</ul>
+	<p><em>Aceste operatiuni va vor ocupa ceva timp (2-3 ore), dar merita - veti simti o ameliorare evidenta a calculatorului 
+	dumneavoastra. Acest tutorial functioneaza pentru <b>Windows 7</b>, dar poate fi aplicat cu usurinta si pentru "batranelul" 
+	<b>Windows XP</b>.</em></p>
+	<p><em>Pentru orice intrebari, va stam la dispozitie la adresa de mail <a href="mailto:helpdesk@iwannaweb.ro">helpdesk@iwannaweb.ro</a>.</em></p>
+	<div class="cleaner"></div>
+	<!-- begin htmlcommentbox.com !-->
+	<div id="HCB_comment_box">
+      <a href="http://www.htmlcommentbox.com">Comentariile</a> se incarca acum...
+	</div>
+ 	<script type="text/javascript" id="hcb">
+	  if(!window.hcb_user){
+		hcb_user={};
+	  }
+	  (function(){
+		var s=document.createElement("script"), l=(hcb_user.PAGE || ""+window.location), h="//www.htmlcommentbox.com";
+		s.setAttribute("type","text/javascript");
+		s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24YrARf7JjW%2F9wcO9ERM%2Fxl1"+"&opts=16862&num=10");
+		if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);
+	  })();
+	</script>
+  </div>

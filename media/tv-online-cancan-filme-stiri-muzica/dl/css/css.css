@@ -1,0 +1,6 @@
+*{margin:0;padding:0}
+body{font-size:12px;FONT-FAMILY:Verdana,Arial,Helvetica,sans-serif;COLOR:#404040;text-align:center}
+a:active,a:link,a:visited{color:#006699;text-decoration:none}
+a:hover{text-decoration:underline}
+.tcenter{text-align:center;margin:12px 0;font-size:12px}
+.contur{padding:4px;background:#66FFFF;border:6px #E1E1E1 solid}

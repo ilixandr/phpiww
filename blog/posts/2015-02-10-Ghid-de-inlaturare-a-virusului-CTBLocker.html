@@ -1,0 +1,41 @@
+<div class="container">
+  <div class="col-sm-9">
+    <h2>Ghid de inlaturare a virusului CTB-Locker</h2>
+    <div class="post_meta">
+      <span class="cat">Postat la 10 februarie 2015 </span> | <em>Categoria: Securitate</em>
+    </div>
+    <img src="http://www.iwannaweb.ro/blog/assets/2015/02/10/ctb-locker-devirusare.jpg"  alt="CTB-Locker, Critroni A, devirusare, activare, decriptare"/>
+    <p style="text-align: justify;"><a href="http://www.iwannaweb.ro/blog-post.html"><q>Nu a trecut inca mult timp de la anuntul Departamentului de Justitie al SUA care anunta un mare succes prin inchiderea definitiva a serverelor Cryptolocker, ca o amenintare si mai serioase tinde sa ii ia incet locul: e vorba de un nou virus de tip ransomware, de acelasi tip cu celebrul virus Politia Romana, dar nu din aceeasi categorie, CTB-Locker (Curve-Tor-Bitcoin Locker), denumit de cei de la Microsoft Critroni A.</q></a></p>
+	<p style="text-align: justify;">Acesta era titlul articolului de <a href="http://www.iwannaweb.ro/blog-post.html">blog</a> din vara trecuta care anunta CTB-Locker ca un nou mare pericol de securitate in online. In urma numeroaselor solicitari din ultimele doua luni (email, facebook sau retele sociale), am pus la punct un scurt ghid de inlaturare a virusului Critroni A (CTB Locker) si de decriptare a datelor personale <q>furate</q> de acest ransomware relativ complicat.</p>
+	<p style="text-align: justify;">Din momentul infectarii, utilizatorul este anuntat ca are 72 de ore la dispozitie pentru a efectua plata in bitcoins (mare atentie la sume, deseori apare o cerere de 0.4 BTC, 0.8 BTC, insa 1 BTC = 190 $), dupa care cheia privata va fi distrusa. In mod real, aceasta plata poate fi evitata, in cazul in care inlaturati suficient de repede virusul. Este foarte important sa incercati sa deconectati calculatorul de la retea indata ce apar semnele de infectare (mesajul tipic de pe ecran).</p>
+	<p style="text-align: justify;">Iata, pe scurt, care sunt pasii pentru devirusare / dezactivarea virusului si decriptarea datelor personale (am descoperit dovezi de existenta a unor variante ale acestui malware care nu fac altceva decat sa schimbe extensia fisierelor, caz in care ele pot fi foarte usor recuperate):</p>
+	<p style="text-align: justify;"> [1] - Inchideti calculatorul, deconectati cablul de retea / dezactivati conexiunea wireless, iar apoi reporniti calculatorul.</p>
+	<p style="text-align: justify;"> [2] - Dupa semnalul de boot, apasati in mod repetat tasta <em>F8</em> pentru a activa <em>Safe Mode</em>.</p>
+	<p style="text-align: justify;"> [3] - Odata logat in modul <em>Safe</em>, mergeti la <em>Start</em>, iar in bara de <em>Search programs and files</em> tastati <b><i>regedit</i></b>, apoi apasati <em>Enter</em>.</p>
+	<p style="text-align: justify;"> [4] - In editorul de registri, cautati in <em>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run</em> cheia de registru <em>System Security</em>, care de obicei are o valoare de tip <q>C:\Users\&lt;numele_utilizatorului&gt;\AppData\Local\rmc-btc.exe</q> si stergeti-o.</p>
+	<p style="text-align: justify;"> [5] - Navigati apoi in folderul <q>C:\Users\&lt;numele_utilizatorului&gt;\AppData\Local\</q> si stergeti toate executabilele care apar in lista. Restartati calculatorul, in modul normal si reconectati-l la retea, daca nu aveti un alt mijloc de a descarca solutii antivirus.</p> 
+	<p style="text-align: justify;"> [6] - Descarcati, instalati si rulati <a href="http://download.eset.com/special/ERARemover_x86.exe">ESET Rogue App Remover (32 bit)</a> sau <a href="http://download.eset.com/special/ERARemover_x64.exe">ESET Rogue App Remover (64 bit)</a>, in functie de tipul sistemului dumneavoastra de operare.</p>
+	<p style="text-align: justify;"> [7] - In caz ca nu reusiti cu ESET Rogue App Remover, incercati cu <a href="http://www.microsoft.com/en-us/download/confirmation.aspx?id=9905 ">Microsoft Malicious Software Removal Tool</a> sau <a href="http://www.malwarebytes.org/mwb-download/confirm/">MalwareBytes</a>.</p>
+	<p style="text-align: justify;"> [8] - La final, daca aveti fisiere criptate, incercati recuperarea lor cu <a href="http://www.pandasecurity.com/resources/tools/pandaunransom.exe ">Panda Ransomware Decrypt</a>.</p>
+	<p style="text-align: justify;"> Ghidul de mai sus functioneaza pentru Windows 7, dar procedura este asemanatoare si pe Windows XP sau Windows 8. Va reamintim ca, pentru a va proteja de amenintari de acest tip este indicat:</p>
+	<p style="text-align: justify;"> - sa instalati in browser un add-on de blocare a pop-upurilor, de tip <a href="https://addons.mozilla.org/en-US/firefox/addon/adblock-plus/">AdBlock Plus</a> - reduce riscul de infectare cu 90%.</p> 
+	<p style="text-align: justify;"> - sa faceti backup documentelor deosebit de importante prin intermediul unei platforme de tip cloud storage: <a href="https://drive.google.com/">Google Drive</a>, <a href="https://onedrive.live.com/">OneDrive</a>, <a href="https://dropbox.com">Dropbox</a>, <a href="https://www.copy.com">Copy</a>, etc.</p>
+	<p style="text-align: justify;"> - sa folositi o solutie anti-virus / anti-malware in mod constant, pentru ca oricare dintre versiunile de Windows este vulnerabila in fata acestui tip de atac.</p>
+	<p style="text-align: justify;"><em>Pentru orice intrebari, va stam la dispozitie la adresa de mail <a href="mailto:helpdesk@iwannaweb.ro">helpdesk@iwannaweb.ro</a>.</em></p>
+	<div class="cleaner"></div>
+    <!-- begin htmlcommentbox.com !-->
+ 	<div id="HCB_comment_box">
+	  <a href="http://www.htmlcommentbox.com">Comentariile</a> se incarca acum...
+	</div>
+ 	<script type="text/javascript" id="hcb">
+	  if(!window.hcb_user){
+	    hcb_user={};
+	  }
+	  (function(){
+	    var s=document.createElement("script"), l=(hcb_user.PAGE || ""+window.location), h="//www.htmlcommentbox.com";
+	    s.setAttribute("type","text/javascript");
+	    s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24YrARf7JjW%2F9wcO9ERM%2Fxl1"+"&opts=16862&num=10");
+	    if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);
+	  })();
+	</script>
+  </div>

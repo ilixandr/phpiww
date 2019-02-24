@@ -1,0 +1,676 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script language="JavaScript" src="js/sopcast_player.js" type="text/javascript"></script>
+    <script language="Javascript">
+		playit=function(link,name){
+		 var options = new Array(":aspect-ratio=4:3", "--rtsp-tcp");
+		 var id = vlc.playlist.add(link, name, options);
+		 vlc.playlist.playItem(id);
+		};
+	</script>
+	<title>iwanna.web - Posturi TV online</title>
+	<meta name="keywords" content="posturi, tv, canale, stream, online, PRO TV, Antena 1,Antena 3, Kanal D, Acasa, Prima TV, TVR 1, National TV, B1 TV, Realitatea TV, Romania TV, Digisport, Dolcesport"/>
+	<meta name="description" content="Posturi TV online, stream TV, canale romanesti: PRO TV, Antena 1,Antena 3, Kanal D, Acasa, Prima TV, TVR 1, National TV, B1 TV, Realitatea TV, Romania TV, Digisport, Dolcesport" />
+	<link href="css/webdesign.css" rel="stylesheet" type="text/css" />
+	<link rel="icon" type="image/png" href="images/favicon.png">
+	<link rel="stylesheet" type="text/css" href="css/ddsmoothmenu.css" />
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript">
+		changeChannel = function(name){
+			getElementById("tv").target = name;
+		}
+	</script>
+	<script type="text/javascript" src="js/ddsmoothmenu.js">
+	//Smooth Navigational Menu
+	//(c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+	//This notice MUST stay intact for legal use
+	//Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
+	</script>
+	<script type="text/javascript">
+		ddsmoothmenu.init({
+			mainmenuid: "menu",
+			orientation: 'h',
+			classname: 'ddsmoothmenu',
+			contentsource: "markup"
+		})
+	</script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<!-- Google Analytics !-->
+	<script type="text/javascript">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-42980001-1', 'iwannaweb.ro');
+	ga('send', 'pageview');
+	</script>
+</head>
+<body id="subpage">
+<div id="container">
+	<div id="header">
+    	<div id="sitetitle">
+			<h1>
+				<a href="http://www.iwannaweb.ro">
+					Posturi TV Romania: PRO TV, Antena 1,Antena 3, Kanal D, Acasa, Prima TV, TVR 1, National TV, B1 TV, Realitatea TV, Romania TV, Digisport, Dolcesport
+				</a>
+			</h1>
+		</div>
+        <div id="menu" class="ddsmoothmenu">
+            <ul>
+              	<li><a href="http://media.iwannaweb.ro/index.html">canale tv</a></li>
+          		<li><a href="http://media.iwannaweb.ro/muzica/muzica.html">muzica</a>
+                    <ul>
+                        <li><a href="#">.mp3</a></li>
+                        <li><a href="#">video</a></li>
+						<li><a href="#">selectii</a></li>
+                  	</ul>
+              	</li>
+              	<li><a href="http://media.iwannaweb.ro/filme/filme.html">filme</a></li>
+              	<li><a href="http://media.iwannaweb.ro/help.html">how to</a></li>
+            </ul>
+            <br style="clear: left" />
+        </div>
+    </div>
+    
+    <div id="iwwmain">
+    		<h3>Posturi TV online :: <em>live stream TV <a href="http://media.iwannaweb.ro">media@iwanna.web | tv online live</a></em></h3>
+            <p><em>Mai jos gasiti linkuri catre cele mai importante posturi de televiziune romanesti. Urmariti live PRO TV, Antena 1, Antena 3, Digisport, Dolcesport, Look TV... Linkurile 
+			sunt impartite in functie de player - Sopcast, Flash, VLC. Informatii detaliate legate de instalarea playerelor gasiti la sectiunea 
+			<a href="http://media.iwannaweb.ro/help.html">how to</a>. Momentan, sunt disponibile numai canalele Sopcast - va rugam sa folositi Internet Explorer pentru Sopcast!</em></p>   
+            <a name="sopcastplayer"></a>
+			<object id="SopPlayer" name="SopPlayer" classid="clsid:8FEFF364-6A5F-4966-A917-A3AC28411659" height="480" width="640">
+				<param name="UserID" value="0">
+				<param name="Username" value>
+				<param name="Password" value>
+				<param name="Language" value="Default_Lang">
+				<param name="SopAddress" value>
+				<param name="ChannelName" value>
+				<param name="CookieString" value>
+				<param name="AuthUrl" value>
+				<param name="ServAddress" value>
+				Pentru a urmari canale TV prin Sopcast, va rugam sa folositi Internet Explorer (sau Chrome/Firefox cu IETab).
+			</object>
+			<p></p>
+			 <table border="0" style="width:100%">
+				<tr>	
+					<td>
+						<a href="#sopcastplayer" onclick="OnPlay('sop://broker.sopcast.com:3912/149256', 'Acasa TV');return false;">
+							<img height="40px" width="40px" src="images/tv/acasatv.jpg" style="vertical-align:middle" alt="Acasa TV"/>Acasa TV
+						</a>
+					</td>
+					<td>
+						<a href="#sopcastplayer" onclick="OnPlay('sop://broker.sopcast.com:3912/148884', 'Acasa Gold');return false;">
+							<img height="40px" width="40px" src="images/tv/acasagold.jpg" style="vertical-align:middle" alt="Acasa Gold"/>Acasa Gold
+						</a>
+					</td>
+					<td>
+						<a href="#sopcastplayer" onclick="OnPlay('sop://broker.sopcast.com:3912/149257', 'Antena 1');return false;">
+							<img height="40px" width="40px" src="images/tv/antena1.jpg" style="vertical-align:middle" alt="Antena 1"/>Antena 1
+						</a>
+					</td>
+					<td>
+						<a href="#sopcastplayer" onclick="OnPlay('sop://broker.sopcast.com:3912/148261', 'Antena Stars');return false;">
+							<img height="40px" width="40px" src="images/tv/antenastars.jpg" style="vertical-align:middle" alt="Antena Stars"/>Antena Stars
+						</a>
+					</td>
+					<td>
+						<a href="#sopcastplayer" onclick="OnPlay('sop://broker.sopcast.com:3912/148084', 'Antena 3');return false;">
+							<img height="40px" width="40px" src="images/tv/antena3.jpg" style="vertical-align:middle" alt="Antena 3"/>Antena 3
+						</a>
+					</td>
+					<td>
+						<a href="#sopcastplayer" onclick="OnPlay('sop://broker.sopcast.com:3912/148257', 'AXN');return false;">
+							<img height="40px" width="40px" src="images/tv/axn.jpg" style="vertical-align:middle" alt="AXN"/>AXN
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="#sopcastplayer" onclick="OnPlay('sop://broker.sopcast.com:3912/149261', 'AXN Black');return false;">
+							<img height="40px" width="40px" src="images/tv/axnblack.jpg" style="vertical-align:middle" alt="AXN Black"/>AXN Black
+						</a>
+					</td>
+					<td>
+						<a href="#sopcastplayer" onclick="OnPlay('sop://broker.sopcast.com:3912/149263', 'AXN Spin');return false;">
+							<img height="40px" width="40px" src="images/tv/axnspin.jpg" style="vertical-align:middle" alt="AXN Spin"/>AXN Spin
+						</a>
+					</td>
+					<td>
+						<a href="#sopcastplayer" onclick="OnPlay('sop://broker.sopcast.com:3912/149262', 'AXN White');return false;">
+							<img height="40px" width="40px" src="images/tv/axnwhite.jpg" style="vertical-align:middle" alt="AXN White"/>AXN White
+						</a>
+					</td>
+					<td>
+						<a href="#sopcastplayer" onclick="OnPlay('sop://broker.sopcast.com:3912/148087', 'B1 TV');return false;">
+							<img height="40px" width="40px" src="images/tv/b1tv.jpg" style="vertical-align:middle" alt="B1 TV"/>B1 TV
+						</a>
+					</td>
+					<td>
+						<a href="#sopcastplayer" onclick="OnPlay('sop://broker.sopcast.com:3912/149264', 'Boomerang');return false;">
+							<img height="40px" width="40px" src="images/tv/boomerang.jpg" style="vertical-align:middle" alt="Boomerang"/>Boomerang
+						</a>
+					</td>
+					<td>
+						<a href="#sopcastplayer" onclick="OnPlay('sop://broker.sopcast.com:3912/140516', 'Broccoli TV');return false;">
+							<img height="40px" width="40px" src="images/tv/broccolitv.jpg" style="vertical-align:middle" alt="Broccoli TV"/>Broccoli TV
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="#sopcastplayer" onclick="OnPlay('sop://broker.sopcast.com:3912/255766', 'Canal+ Liga HD');return false;">
+							<img height="40px" width="40px" src="images/tv/canalplusligahd.jpg" style="vertical-align:middle" alt="Canal+ Liga HD"/>Canal+ Liga HD
+						</a>
+					</td>
+					<td>
+						<a href="#sopcastplayer" onclick="OnPlay('sop://broker.sopcast.com:3912/148254', 'Cartoon Network');return false;">
+							<img height="40px" width="40px" src="images/tv/cartoonnetwork.jpg" style="vertical-align:middle" alt="Cartoon Network"/>Cartoon Network
+						</a>
+					</td>
+					<td>
+						<a href="#sopcastplayer" onclick="OnPlay('sop://broker.sopcast.com:3912/148971', 'Digi Film');return false;">
+							<img height="40px" width="40px" src="images/tv/digifilm.jpg" style="vertical-align:middle" alt="Digi Film"/>Digi Film
+						</a>
+					</td>
+					<td>
+						<a href="#sopcastplayer" onclick="OnPlay('sop://178.175.143.195:3912/110152', 'Digisport 1');return false;">
+							<img height="40px" width="40px" src="images/tv/digisport1.jpg" style="vertical-align:middle" alt="Digisport 1"/>Digisport 1
+						</a>
+					</td>
+					<td>
+						<a href="#sopcastplayer" onclick="OnPlay('sop://broker.sopcast.com:3912/148972', 'Discovery Channel');return false;">
+							<img height="40px" width="40px" src="images/tv/discoverychannel.jpg" style="vertical-align:middle" alt="Discovery Channel"/>Discovery Channel
+						</a>
+					</td>
+					<td>
+						<a href="#sopcastplayer" onclick="OnPlay('sop://broker.sopcast.com:3912/148975', 'Discovery ID');return false;">
+							<img height="40px" width="40px" src="images/tv/discoveryid.jpg" style="vertical-align:middle" alt="Discovery ID"/>Discovery ID
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="#sopcastplayer" onclick="OnPlay('sop://broker.sopcast.com:3912/148974', 'Discovery Science');return false;">
+							<img height="40px" width="40px" src="images/tv/discoveryscience.jpg" style="vertical-align:middle" alt="Discovery Science"/>Discovery Science
+						</a>
+					</td>
+					<td>
+						<a href="#sopcastplayer" onclick="OnPlay('sop://broker.sopcast.com:3912/148973', 'Discovery World');return false;">
+							<img height="40px" width="40px" src="images/tv/discoveryworld.jpg" style="vertical-align:middle" alt="Discovery World"/>Discovery World
+						</a>
+					</td>
+					<td>
+						<a href="#sopcastplayer" onclick="OnPlay('sop://broker.sopcast.com:3912/148252', 'Disney Channel');return false;">
+							<img height="40px" width="40px" src="images/tv/disneychannel.jpg" style="vertical-align:middle" alt="Disney Channel"/>Disney Channel
+						</a>
+					</td>
+					<td>
+						<a href="#sopcastplayer" onclick="OnPlay('sop://broker.sopcast.com:3912/148978', 'Disney Junior');return false;">
+							<img height="40px" width="40px" src="images/tv/disneyjunior.jpg" style="vertical-align:middle" alt="Disney Junior"/>Disney Junior
+						</a>
+					</td>
+					<td>
+						<a href="#sopcastplayer" onclick="OnPlay('sop://broker.sopcast.com:3912/148885', 'Diva Universal');return false;">
+							<img height="40px" width="40px" src="images/tv/divauniversal.jpg" style="vertical-align:middle" alt="Diva Universal"/>Diva Universal
+						</a>
+					</td>
+					<td>
+						<a href="#sopcastplayer" onclick="OnPlay('sop://broker.sopcast.com:3912/149270', 'Etno TV');return false;">
+							<img height="40px" width="40px" src="images/tv/etnotv.jpg" style="vertical-align:middle" alt="Etno TV"/>Etno TV
+						</a>
+					</td>
+				</tr>
+				<tr>	
+					<td>
+						<a href="#sopcastplayer" onclick="OnPlay('sop://broker.sopcast.com:3912/148886', 'Euforia TV');return false;">
+							<img height="40px" width="40px" src="images/tv/euforiatv.jpg" style="vertical-align:middle" alt="Euforia TV"/>Euforia TV
+						</a>
+					</td>
+					<td>
+						<a href="#sopcastplayer" onclick="OnPlay('sop://broker.sopcast.com:3912/148981', 'Film Café');return false;">
+							<img height="40px" width="40px" src="images/tv/filmcafe.jpg" style="vertical-align:middle" alt="Film Café"/>Film Café
+						</a>
+					</td>
+					<td>
+						<a href="#sopcastplayer" onclick="OnPlay('sop://124.232.150.188:3920/5730', 'Fox Sports 2');return false;">
+							<img height="40px" width="40px" src="images/tv/foxsports2.jpg" style="vertical-align:middle" alt="Fox Sports 2"/>Fox Sports 2
+						</a>
+					</td>
+					<td>
+						<a href="#sopcastplayer" onclick="OnPlay('sop://broker.sopcast.com:3912/148883', 'HBO Comedy');return false;">
+							<img height="40px" width="40px" src="images/tv/hbocomedy.jpg" style="vertical-align:middle" alt="HBO Comedy"/>HBO Comedy
+						</a>
+					</td>
+					<td>
+						<a href="#sopcastplayer" onclick="OnPlay('sop://broker.sopcast.com:3912/148253', 'History Channel');return false;">
+							<img height="40px" width="40px" src="images/tv/historychannel.jpg" style="vertical-align:middle" alt="History Channel"/>History Channel
+						</a>
+					</td>
+					<td>
+						<a href="#sopcastplayer" onclick="OnPlay('sop://broker.sopcast.com:3912/149258', 'Kanal D');return false;">
+							<img height="40px" width="40px" src="images/tv/kanald.jpg" style="vertical-align:middle" alt="Kanal D"/>Kanal D
+						</a>
+					</td>
+				</tr>
+				<tr>	
+					<td>
+						<a href="#sopcastplayer" onclick="OnPlay('sop://broker.sopcast.com:3912/148259', 'Nat Geo Wild');return false;">
+							<img height="40px" width="40px" src="images/tv/natgeowild.jpg" style="vertical-align:middle" alt="Nat Geo Wild"/>Nat Geo Wild
+						</a>
+					</td>
+					<td>
+						<a href="#sopcastplayer" onclick="OnPlay('sop://broker.sopcast.com:3912/148248', 'National Geografic');return false;">
+							<img height="40px" width="40px" src="images/tv/nationalgeographic.jpg" style="vertical-align:middle" alt="National Geografic"/>National Geografic
+						</a>
+					</td>
+					<td>
+						<a href="#sopcastplayer" onclick="OnPlay('sop://broker.sopcast.com:3912/148251', 'National TV');return false;">
+							<img height="40px" width="40px" src="images/tv/nationaltv.jpg" style="vertical-align:middle" alt="National TV"/>National TV
+						</a>
+					</td>
+					<td>
+						<a href="#sopcastplayer" onclick="OnPlay('sop://broker.sopcast.com:3912/149266', 'Nick Jr');return false;">
+							<img height="40px" width="40px" src="images/tv/nickjr.jpg" style="vertical-align:middle" alt="Nick Jr"/>Nick Jr
+						</a>
+					</td>
+					<td>
+						<a href="#sopcastplayer" onclick="OnPlay('sop://broker.sopcast.com:3912/149265', 'Nickelodeon');return false;">
+							<img height="40px" width="40px" src="images/tv/nickelodeon.jpg" style="vertical-align:middle" alt="Nickelodeon"/>Nickelodeon
+						</a>
+					</td>
+					<td>
+						<a href="#sopcastplayer" onclick="OnPlay('sop://broker.sopcast.com:3912/148256', 'Paramount');return false;">
+							<img height="40px" width="40px" src="images/tv/paramount.jpg" style="vertical-align:middle" alt="Paramount"/>Paramount
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="#sopcastplayer" onclick="OnPlay('sop://broker.sopcast.com:3912/148086', 'Prima TV');return false;">
+							<img height="40px" width="40px" src="images/tv/primatv.jpg" style="vertical-align:middle" alt="Prima TV"/>Prima TV
+						</a>
+					</td>
+					<td>
+						<a href="#sopcastplayer" onclick="OnPlay('sop://broker.sopcast.com:3912/148249', 'Procinema');return false;">
+							<img height="40px" width="40px" src="images/tv/procinema.jpg" style="vertical-align:middle" alt="Procinema"/>Procinema
+						</a>
+					</td>
+					<td>
+						<a href="#sopcastplayer" onclick="OnPlay('sop://broker.sopcast.com:3912/151922', 'PRO TV');return false;">
+							<img height="40px" width="40px" src="images/tv/protv.jpg" style="vertical-align:middle" alt="PRO TV"/>PRO TV
+						</a>
+					</td>
+					<td>
+						<a href="#sopcastplayer" onclick="OnPlay('sop://broker.sopcast.com:3912/151929', 'PRO TV');return false;">
+							<img height="40px" width="40px" src="images/tv/protv.jpg" style="vertical-align:middle" alt="PRO TV"/>PRO TV
+						</a>
+					</td>
+					<td>
+						<a href="#sopcastplayer" onclick="OnPlay('sop://broker.sopcast.com:3912/148258', 'Realitatea TV');return false;">
+							<img height="40px" width="40px" src="images/tv/realitateatv.jpg" style="vertical-align:middle" alt="Realitatea TV"/>Realitatea TV
+						</a>
+					</td>
+					<td>
+						<a href="#sopcastplayer" onclick="OnPlay('sop://broker.sopcast.com:3912/148976', 'Romania TV');return false;">
+							<img height="40px" width="40px" src="images/tv/romaniatv.jpg" style="vertical-align:middle" alt="Romania TV"/>Romania TV
+						</a>
+					</td>
+				</tr>
+				<tr>					
+					<td>
+						<a href="#sopcastplayer" onclick="OnPlay('sop://178.175.143.195:3912/253800', 'TATV');return false;">
+							<img height="40px" width="40px" src="images/tv/tatv.jpg" style="vertical-align:middle" alt="TATV"/>TATV
+						</a>
+					</td>
+					<td>
+						<a href="#sopcastplayer" onclick="OnPlay('sop://broker.sopcast.com:3912/148977', 'TLC');return false;">
+							<img height="40px" width="40px" src="images/tv/tlc.jpg" style="vertical-align:middle" alt="TLC"/>TLC
+						</a>
+					</td>
+					<td>
+						<a href="#sopcastplayer" onclick="OnPlay('sop://broker.sopcast.com:3912/148260', 'TV 1000');return false;">
+							<img height="40px" width="40px" src="images/tv/tv1000.jpg" style="vertical-align:middle" alt="TV 1000"/>TV 1000
+						</a>
+					</td>
+					<td>
+						<a href="#sopcastplayer" onclick="OnPlay('sop://broker.sopcast.com:3912/149269', 'Viasat Explorer');return false;">
+							<img height="40px" width="40px" src="images/tv/viasatexplorer.jpg" style="vertical-align:middle" alt="Viasat Explorer"/>Viasat Explorer
+						</a>
+					</td>
+					<td>
+						<a href="#sopcastplayer" onclick="OnPlay('sop://broker.sopcast.com:3912/149268', 'Viasat History');return false;">
+							<img height="40px" width="40px" src="images/tv/viasathistory.jpg" style="vertical-align:middle" alt="Viasat History"/>Viasat History
+						</a>
+					</td>
+					<td>
+						<a href="#sopcastplayer" onclick="OnPlay('sop://broker.sopcast.com:3912/149267', 'Viasat Nature');return false;">
+							<img height="40px" width="40px" src="images/tv/viasatnature.jpg" style="vertical-align:middle" alt="Viasat Nature"/>Viasat Nature
+						</a>
+					</td>
+				</tr>
+			</table> 
+			<br/><br/><br/>
+			<p style="font-size:12px;text-align:justify">
+				Mai jos gasiti canalele TV disponibile prin stream-uri VLC:
+			</p>
+			<a name="vlcplayer"></a>
+			<!--[if !IE]-->
+			<embed type="application/x-vlc-plugin" pluginspage="http://www.videolan.org" width="640" height="480" id="vlc"></embed>
+			<!--[endif]-->
+			<OBJECT classid="clsid:9BE31822-FDAD-461B-AD51-BE1D1C159921" codebase="http://downloads.videolan.org/pub/videolan/vlc/latest/win32/axvlc.cab" width="640" height="480" id="vlc" events="True">
+				<param name="Src" value="" />
+				<param name="ShowDisplay" value="True" />
+				<param name="AutoLoop" value="False" />
+				<param name="AutoPlay" value="False" />
+			</OBJECT>
+			<div class="channels">
+				<table border="0" style="width:100%">
+					<tr>
+						<td>
+							<a href="#vlcplayer" onclick="playit('http://1tv.ambra.ro', '1TV Neamt')">
+								<img height="40px" width="40px" src="images/tv/1tvneamt.jpg" style="vertical-align:middle" alt="1TV Neamt" />1TV Neamt
+							</a>
+						</td>
+						<td>
+							<a href="#vlcplayer" onclick="playit('http://89.149.7.178:8800/flv-audio-video/', '6 TV')">
+								<img height="40px" width="40px" src="images/tv/6tv.jpg" style="vertical-align:middle" alt="6 TV" />6TV
+							</a>
+						</td> 
+						<td>
+							<a href="#vlcplayer" onclick="playit('http://87.248.160.8/edge/smil:accent/playlist.m3u8', '6 TV')">
+								<img height="40px" width="40px" src="images/tv/accenttv.jpg" style="vertical-align:middle" alt="Accent TV" />Accent TV
+							</a>
+						</td> 
+						<td>
+							<a href="#vlcplayer" onclick="playit('http://s1.streamnet.ro:9000', 'Agro TV')">
+								<img height="40px" width="40px" src="images/tv/agrotv.jpg" style="vertical-align:middle" alt="Agro TV" />Agro TV
+							</a>
+						</td> 
+						<td>
+							<a href="#vlcplayer" onclick="playit('http://178.63.14.14:1935/live/monarch.stream/playlist.m3u8', 'Alege TV Craiova')">
+								<img height="40px" width="40px" src="images/tv/alegetvcraiova.jpg" style="vertical-align:middle" alt="Alege TV Craiova" />Alege TV Craiova
+							</a>
+						</td>
+						<td>
+							<a href="#vlcplayer" onclick="playit('http://87.248.160.8/edge/smil:alttv/playlist.m3u8', 'Alt TV')">
+								<img height="40px" width="40px" src="images/tv/alttv.jpg" style="vertical-align:middle" alt="Alt TV" />Alt TV
+							</a>
+						</td>
+					</tr>
+					<tr> 
+						<td>
+							<a href="#vlcplayer" onclick="playit('http://sjc-uhls-vip01.ustream.tv/watch/playlist.m3u8?cid=12584497','Antena 1 Cluj')">
+								<img height="40px" width="40px" src="images/tv/antena1.jpg" style="vertical-align:middle" alt="Antena 1 Cluj" />Antena 1 Cluj
+							</a>
+						</td>
+						<td>
+							<a href="#vlcplayer" onclick="playit('rtmp://81.18.66.155/live/banat-tv ','Banat TV')">
+								<img height="40px" width="40px" src="images/tv/banattv.jpg" style="vertical-align:middle" alt="Banat TV" />Banat TV
+							</a>
+						</td>
+						<td>
+							<a href="#vlcplayer" onclick="playit('http://wpc.c1a9.edgecastcdn.net/hls-live/20C1A9/bbc_world/ls_satlink/b_828.m3u8','BBC News')">
+								<img height="40px" width="40px" src="images/tv/bbcnews.jpg" style="vertical-align:middle" alt="BBC News" />BBC News
+							</a>
+						</td>
+						<td>
+							<a href="#vlcplayer" onclick="playit('http://82.76.249.77:80/digi24edge/digi24hdhq/index.m3u8','Digi 24')">
+								<img height="40px" width="40px" src="images/tv/digi24.jpg" style="vertical-align:middle" alt="Digi 24" />Digi 24
+							</a>
+						</td>
+						<td>
+							<a href="#vlcplayer" onclick="playit('http://hls.novotelecom.ru/streaming/nstv/tvrec/playlist.m3u8','HCT')">
+								<img height="40px" width="40px" src="images/tv/hct.jpg" style="vertical-align:middle" alt="HCT (Real Scary TV)" />HCT (Real Scary TV)
+							</a>
+						</td>
+						<td>
+							<a href="#vlcplayer" onclick="playit('http://87.248.160.8/edge/smil:jurnaltv/playlist.m3u8','Jurnal TV')">
+								<img height="40px" width="40px" src="images/tv/jurnaltv.jpg" style="vertical-align:middle" alt="Jurnal TV" />Jurnal TV
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="#vlcplayer" onclick="playit('http://87.248.160.8/edge/smil:m1/playlist.m3u8','Moldova 1')">
+								<img height="40px" width="40px" src="images/tv/m1.jpg" style="vertical-align:middle" alt="Moldova 1" />Moldova 1
+							</a>
+						</td>
+						<td>
+							<a href="#vlcplayer" onclick="playit('http://95.188.126.233:1234/udp/233.7.70.207:5000','MTV Dance')">
+								<img height="40px" width="40px" src="images/tv/mtvdance.jpg" style="vertical-align:middle" alt="MTV Dance" />MTV Dance
+							</a>
+						</td>
+						<td>
+							<a href="#vlcplayer" onclick="playit('http://95.188.126.233:1234/udp/233.7.70.208:5000','MTV Hits')">
+								<img height="40px" width="40px" src="images/tv/mtvhits.jpg" style="vertical-align:middle" alt="MTV Hits" />MTV Hits
+							</a>
+						</td>
+						<td>
+							<a href="#vlcplayer"  onclick="playit('http://95.188.126.233:1234/udp/233.7.70.209:5000','MTV Rocks')">
+								<img height="40px" width="40px" src="images/tv/mtvrocks.jpg" style="vertical-align:middle" alt="MTV Rocks" />MTV Rocks
+							</a>
+						</td>
+						<td>
+							<a href="#vlcplayer" onclick="playit('http://77.36.61.18:8010/NasulTV.m3u8','Nasul TV')">
+								<img height="40px" width="40px" src="images/tv/nasultv.jpg" style="vertical-align:middle" alt="Nasul TV" />Nasul TV
+							</a>
+						</td>
+						<td>
+							<a href="#vlcplayer" onclick="playit('http://85.204.233.120:1935/news/1.stream/***ylist.m3u8','PRO TV News')">
+								<img height="40px" width="40px" src="images/tv/protvnews.jpg" style="vertical-align:middle" alt="PRO TV News" />PRO TV News
+							</a>
+						</td>
+					</tr>
+					<tr>	
+						<td>
+							<a href="#vlcplayer" onclick="playit('http://rtv.smcmobile.ro:8080/RTV.m3u8','Romania TV')">
+								<img height="40px" width="40px" src="images/tv/romaniatv.jpg" style="vertical-align:middle" alt="Romania TV" />Romania TV
+							</a>
+						</td>
+						<td>
+							<a href="#vlcplayer" onclick="playit('http://odna.octoshape.net/f3f5m2v4/cds/ch1_480p/playlist.m3u8','Russia Today')">
+								<img height="40px" width="40px" src="images/tv/russiatoday.jpg" style="vertical-align:middle" alt="Russia Today" />Russia Today
+							</a>
+						</td>
+						<td>
+							<a href="#vlcplayer" onclick="playit('http://acabsw.doiptv.com/sky_sport_news/playlist.m3u8','Sky Sport News')">
+								<img height="40px" width="40px" src="images/tv/skysportnews.jpg" style="vertical-align:middle" alt="Sky Sport News" />Sky Sport News
+							</a>
+						</td>
+						<td>
+							<a href="#vlcplayer" onclick="playit('http://77.36.61.45:8010/TVH20HQ.m3u8','TVH 2.0')">
+								<img height="40px" width="40px" src="images/tv/tvh20.jpg" style="vertical-align:middle" alt="TVH 2.0" />TVH 2.0
+							</a>
+						</td>
+						<td>
+							<a href="#vlcplayer" onclick="playit('http://82.76.249.77:80/utvedge/utvlive/index.m3u8','U TV')">
+								<img height="40px" width="40px" src="images/tv/utv.jpg" style="vertical-align:middle" alt="U TV" />U TV
+							</a>
+						</td>
+						<td>
+							<a href="#vlcplayer" onclick="playit('http://95.188.126.233:1234/udp/233.7.70.152:5000','VH1')">
+								<img height="40px" width="40px" src="images/tv/vh1.jpg" style="vertical-align:middle" alt="VH 1" />VH 1
+							</a>
+						</td>
+					</tr>
+					<tr>	
+						<td>
+							<a href="#vlcplayer" onclik="playit('rtsp://77.36.61.40:554/aljazeera.sdp','Al Jazeera')">
+								<img height="40px" width="40px" src="images/tv/aljazeera.jpg" style="vertical-align:middle" alt="Al Jazeera"/>Al Jazeera
+							</a>
+						</td>
+						<td>
+							<a href="#vlcplayer" onclik="playit('rtsp://77.36.61.18:554/b1.sdp','B1 TV')">
+								<img height="40px" width="40px" src="images/tv/b1tv.jpg" style="vertical-align:middle" alt="B1 TV"/>B1 TV
+							</a>
+						</td>
+						<td>
+							<a href="#vlcplayer" onclik="playit('http://izbshow.bnt.bg/stream.m3u8','BNT World')">
+								<img height="40px" width="40px" src="images/tv/bntworld.jpg" style="vertical-align:middle" alt="BNT World"/>BNT World
+							</a>
+						</td>
+						<td>
+							<a href="#vlcplayer" onclik="playit('mmsh://stream2.canal.qc.ca/enOndes_haut_debit?animationatStart=true&transparentatStart=true','Canal Savoir')">
+								<img height="40px" width="40px" src="images/tv/canalsavoir.jpg" style="vertical-align:middle" alt="Canal Savoir"/>Canal Savoir
+							</a>
+						</td>
+						<td>
+							<a href="#vlcplayer" onclik="playit('rtsp://ewns-hls-b-stream.hexaglobe.net/rtpeuronewslive/en_vidan350_rtp.sdp','Euronews')">
+								<img height="40px" width="40px" src="images/tv/euronews.jpg" style="vertical-align:middle" alt="Euronews"/>Euronews
+							</a>
+						</td>
+						<td>
+							<a href="#vlcplayer" onclik="playit('http://sslhls.m6tv.cdn.sfr.net/hls-live/livepkgr/_definst_/m6_music_club_hls_aes/m6_music_club_hls_aes_856.m3u8','M6 Music Club')">
+								<img height="40px" width="40px" src="images/tv/m6musicclub.jpg" style="vertical-align:middle" alt="M6 Music Club"/>M6 Music Club
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="#vlcplayer" onclik="playit('http://public.infozen.cshls.lldns.net/infozen/public/public.m3u8','NASA Public TV')">
+								<img height="40px" width="40px" src="images/tv/nasatv.jpg" style="vertical-align:middle" alt="NASA Public TV"/>NASA Public TV
+							</a>
+						</td>
+						<td>
+							<a href="#vlcplayer" onclik="playit('http://81.196.63.226:1935/live/rkst4_1.stream/playlist.m3u8','Rai 1')">
+								<img height="40px" width="40px" src="images/tv/rai1.jpg" style="vertical-align:middle" alt="Rai 1"/>Rai 1
+							</a>
+						</td>
+						<td>
+							<a href="#vlcplayer" onclik="playit('http://81.196.63.226:1935/live/rkst4_2.stream/playlist.m3u8','Rai 2')">
+								<img height="40px" width="40px" src="images/tv/rai2.jpg" style="vertical-align:middle" alt="Rai 2"/>Rai 2
+							</a>
+						</td>
+						<td>
+							<a href="#vlcplayer" onclik="playit('http://81.196.63.226:1935/live/rkst4_3.stream/playlist.m3u8','Rai 3')">
+								<img height="40px" width="40px" src="images/tv/rai3.jpg" style="vertical-align:middle" alt="Rai 3"/>Rai 3
+							</a>
+						</td>
+						<td>
+							<a href="#vlcplayer" onclik="playit('http://81.196.63.226:1935/live/rkst4_4.stream/playlist.m3u8','Rai 4')">
+								<img height="40px" width="40px" src="images/tv/rai4.jpg" style="vertical-align:middle" alt="Rai 4"/>Rai 4
+							</a>
+						</td>
+						<td>
+							<a href="#vlcplayer" onclik="playit('mmsh://212.162.68.163:80/raisport+?MSWMExt=.asf','Rai Sport 1')">
+								<img height="40px" width="40px" src="images/tv/raisport1.jpg" style="vertical-align:middle" alt="Rai Sport 1"/>Rai Sport 1
+							</a>
+						</td>
+					</tr>
+					<tr>	
+						<td>
+							<a href="#vlcplayer" onclik="playit('mmsh://212.162.68.163:80/raisport2?MSWMExt=.asf','Rai Sport 2')">
+								<img height="40px" width="40px" src="images/tv/raisport2.jpg" style="vertical-align:middle" alt="Rai Sport 2"/>Rai Sport 2
+							</a>
+						</td>
+						<td>
+							<a href="#vlcplayer" onclik="playit('rtsp://77.36.61.42:554/realitatea.sdp','Realitatea TV')">
+								<img height="40px" width="40px" src="images/tv/realitateatv.jpg" style="vertical-align:middle" alt="Realitatea TV"/>Realitatea TV
+							</a>
+						</td>
+						<td>
+							<a href="#vlcplayer" onclik="playit('http://rtvflash.smcmobile.ro:8020/rtv.flv','Romania TV')">
+								<img height="40px" width="40px" src="images/tv/romaniatv.jpg" style="vertical-align:middle" alt="Romania TV"/>Romania TV
+							</a>
+						</td>
+						<td>
+							<a href="#vlcplayer" onclik="playit('rtsp://77.36.61.18:554/travelmix.sdp','Travel Mix')">
+								<img height="40px" width="40px" src="images/tv/travelmix.jpg" style="vertical-align:middle" alt="Travel Mix"/>Travel Mix
+							</a>
+						</td>
+						<td>
+							<a href="#vlcplayer" onclik="playit('rtsp://77.36.61.18:554/tvrinternational.sdp','TVR International')">
+								<img height="40px" width="40px" src="images/tv/tvri.jpg" style="vertical-align:middle" alt="TVR International"/>TVR International
+							</a>
+						</td>
+						<td>
+							<a href="#vlcplayer" onclik="playit('rtsp://77.36.61.40:554/tvrnews.sdp','TVR News')">
+								<img height="40px" width="40px" src="images/tv/tvrnews.jpg" style="vertical-align:middle" alt="TVR News"/>TVR News
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="#vlcplayer" onclik="playit('http://vevoplaylist-live.hls.adaptive.level3.net/vevo/ch1/06/prog_index.m3u8','VEVO')">
+								<img height="40px" width="40px" src="images/tv/vevo.jpg" style="vertical-align:middle" alt="VEVO"/>VEVO
+							</a>
+						</td>
+						<td>
+							<a href="#vlcplayer" onclik="playit('http://gogo.jksw.cz:8024','VH1 Classic')">
+								<img height="40px" width="40px" src="images/tv/vh1classic.jpg" style="vertical-align:middle" alt="VH1 Classic"/>VH1 Classic
+							</a>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<p style="font-size:10px; text-align:justify">
+				Posturi TV romanesti online, stream-uri TV: Acasa TV, Acasa Gold, Antena 1, Antena Stars, Antena 3, AXN, AXN Black, AXN Spin, AXN White, B1 TV, 
+				Boomerang, Cartoon Network, Digi Film, Digisport 1, Digisport 2, Digisport 3, Discovery Channel, Discovery Science, Discovery World, Disney Channel, Disney Junior, 
+				Diva Universal, Dolcesport 1, Dolcesport 2, Dolcesport 3, Euforia TV, Eurosport, Eurosport 2, Film Café, HBO, HBO Comedy, History Channel, Kanal D, LOOK TV, Minimax, 
+				Nat Geo Wild, National Geografic, National TV, Nickelodeon, Paramount, Prima TV, Procinema, PRO TV, Realitatea TV, Romania TV, Sport RO, TLC, TV 1000, TVR 1, TVR 2, 
+				Universal Channel, Viasat Explorer, Viasat History, Viasat Nature.
+			</p>
+			<!-- social networking goes here !-->
+			<div class="col_allw300">
+				<a href="http://www.facebook.com/iwannaweb"><img src="images/fb_32_32.png" alt="Cluj web designer" style="vertical-align:middle"/></a>
+				<a href="http://www.iwannaweb.ro" target="_parent"><b>Cluj web designer</b></a> pe 
+				<a href="http://www.facebook.com/iwannaweb">Facebook</a>
+			</div>
+			<div class="col_allw300">
+				<a href="http://www.twitter.com/iwannaweb"><img src="images/tw_32_32.png" alt="Cluj web designer" style="vertical-align:middle"/></a>
+				<a href="http://www.iwannaweb.ro" target="_parent"><b>Cluj web designer</b></a> pe 
+				<a href="http://www.twitter.com/iwannaweb">Twitter</a>
+			</div>
+			<div class="col_allw300 col_rm">
+				<a href="//plus.google.com/106919341084706153999?prsrc=3" rel="publisher" target="_top" style="text-decoration:none;vertical-align:middle">
+				<img src="//ssl.gstatic.com/images/icons/gplus-16.png" alt="cluj web designer Google+" style="border:0;width:16px;height:16px;"/>
+				</a>
+				<a href="https://plus.google.com/106919341084706153999" rel="publisher"></a>
+				<a href="http://www.iwannaweb.ro" target="_parent"><b>Cluj web designer</b></a> pe 
+				<a href="https://plus.google.com/106919341084706153999">Google+</a>
+			</div>
+			<div class="col_allw300">			
+				<div id="fb-root"></div>
+				<script>(function(d, s, id) {
+			  		var js, fjs = d.getElementsByTagName(s)[0];
+			  		if (d.getElementById(id)) return;
+			  		js = d.createElement(s); js.id = id;
+			  		js.src = "//connect.facebook.net/ro_RO/all.js#xfbml=1";
+			  		fjs.parentNode.insertBefore(js, fjs);
+				}(document, 'script', 'facebook-jssdk'));
+				</script>
+				<div style="margin-left: 10px;" class="fb-like" data-href="https://www.facebook.com/pages/Iwanna-web/192732267566140" data-width="200" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
+			</div>
+        <div class="cleaner"></div>
+    </div>
+</div>
+<div id="footer_container">
+    <div id="footer">
+        Copyright &copy; 2013-2014 <a href="http://www.iwannaweb.ro">iwanna.web</a> | 
+        <a href="http://www.iwannaweb.ro" target="_parent"><b>Cluj web designer</b></a> - creare, optimizare si promovare site Cluj Napoca
+		<div itemscope itemtype="http://schema.org/LocalBusiness">
+			<div itemscope itemtype="http://schema.org/Person">
+				<a itemprop="url" href="http://www.iwannaweb.ro">
+					<span itemprop="name"><strong>iwanna.web</strong></span>
+				</a>,
+				<span itemprop="email">e-mail: helpdesk@iwannaweb.ro</span>,
+				<span itemprop="telephone">telefon: (+40) 0728 76 42 69</span>
+			</div>
+			<div itemprop="description">webdesign, SEO, publicitate online, solutii helpdesk</div>
+			<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+				<span itemprop="streetAddress">8 Meteor</span>,
+				<span itemprop="addressLocality"> Cluj-Napoca</span><br>
+				<span itemprop="postalCode">400492</span>,
+				<span itemprop="addressRegion"> Cluj</span>,
+				<span itemprop="addressCountry"> Romania</span><br>
+			</div>
+		</div>
+ 		<!--div class="cleaner"></div-->
+    </div>
+</div>
+</body>
+</html>
+

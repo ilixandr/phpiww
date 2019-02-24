@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>http://www.iwannaweb.ro/</loc>
+    <lastmod>2014-01-26T12:12:28+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://media.iwannaweb.ro/</loc>
+    <lastmod>2015-02-19T23:12:28+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://media.iwannaweb.ro/index.html</loc>
+    <lastmod>2015-02-19T23:14:35+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://www.iwannaweb.ro/media/</loc>
+    <lastmod>2015-02-19T23:12:28+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://www.iwannaweb.ro/media/index.html</loc>
+    <lastmod>2015-02-19T23:14:35+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1.0</priority>
+  </url> 
+  <url>
+    <loc>http://www.iwannaweb.ro/index.html</loc>
+    <lastmod>2014-01-26T12:12:28+00:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1.0</priority>
+  </url>
+<url>
+    <loc>http://www.iwannaweb.ro/blog-post-11.html</loc>
+    <lastmod>2015-07-26T01:48:22+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+</url> 
+<url>
+    <loc>http://www.iwannaweb.ro/blog-post.html</loc>
+    <lastmod>2015-02-10T02:12:22+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+</url>
+<url>
+    <loc>http://www.iwannaweb.ro/blog-post-9.html</loc>
+    <lastmod>2015-02-09T16:12:22+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+</url>
+
+<url>
+    <loc>http://www.iwannaweb.ro/blog-post-8.html</loc>
+    <lastmod>2014-03-28T16:12:22+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+</url>
+<url>
+    <loc>http://www.iwannaweb.ro/blog-post-7.html</loc>
+    <lastmod>2014-03-19T15:02:29+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+</url>
+<url>
+    <loc>http://www.iwannaweb.ro/blog-post-6.html</loc>
+    <lastmod>2014-01-26T15:52:29+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+</url>
+  <url>
+    <loc>http://www.iwannaweb.ro/blog-post-5.html</loc>
+    <lastmod>2014-01-26T15:52:29+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://www.iwannaweb.ro/blog-post-4.html</loc>
+    <lastmod>2014-01-26T15:52:29+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://www.iwannaweb.ro/blog-post-3.html</loc>
+    <lastmod>2013-09-16T15:12:30+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>http://www.iwannaweb.ro/blog-post-2.html</loc>
+    <lastmod>2014-01-26T15:12:30+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>http://www.iwannaweb.ro/blog-post-1.html</loc>
+    <lastmod>2014-01-26T15:12:30+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>http://www.iwannaweb.ro/contact.asp</loc>
+	<lastmod>2014-01-26T15:12:30+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>http://www.iwannaweb.ro/helpdesk.html</loc>
+    <lastmod>2014-01-26T15:12:30+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://www.iwannaweb.ro/helpdesk_devices.html</loc>
+    <lastmod>2014-01-26T15:12:30+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>http://www.iwannaweb.ro/helpdesk_hardware.html</loc>
+    <lastmod>2014-01-26T15:12:30+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>http://www.iwannaweb.ro/helpdesk_software.html</loc>
+    <lastmod>2014-01-26T15:12:30+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>http://www.iwannaweb.ro/portofoliu.html</loc>
+    <lastmod>2014-01-26T15:12:30+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  <url>
+    <loc>http://www.iwannaweb.ro/portofoliu_page2.html</loc>
+    <lastmod>2014-01-26T15:12:30+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  <url>
+    <loc>http://www.iwannaweb.ro/portofoliu_page3.html</loc>
+    <lastmod>2014-01-26T15:12:30+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://www.iwannaweb.ro/portofoliu_page4.html</loc>
+    <lastmod>2014-01-26T15:12:30+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>

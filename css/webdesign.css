@@ -1,0 +1,558 @@
+/*==========================
+  = Ionut: 27-feb-2018     =
+  = Add new design here    =
+  ==========================
+*/
+.spacer-dash{clear: both; border-bottom: 1px dashed #999;}
+.lang-icon{width: 20px; height: 15px;}
+.navbar{border-radius: 0;}
+
+#iwwFooter {
+    /*background-color: #3c3d41;*/
+    background-color: #222;
+    color: white;
+    padding-top: 30px;
+}
+
+#iwwFooter .footer-copyright {
+    background-color: #333333;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+#iwwFooter .row {
+    margin-bottom: 60px;
+}
+
+#iwwFooter .navbar-brand {
+    margin-top: 45px;
+    height: 65px;
+}
+
+#iwwFooter .footer-copyright p {
+    margin: 10px;
+    color: #ccc;
+}
+
+#iwwFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#iwwFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#iwwFooter h2 a{
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+#iwwFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#iwwFooter a:hover,
+#iwwFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+#iwwFooter .social-networks {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 16px;
+}
+
+#iwwFooter .social-networks a {
+    font-size: 32px;
+    color: #f9f9f9;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+#iwwFooter .social-networks a:hover {
+    text-decoration: none;
+}
+
+#iwwFooter .facebook:hover {
+    color: #0077e2;
+}
+
+#iwwFooter .google:hover {
+    color: #ef1a1a;
+}
+
+#iwwFooter .twitter:hover {
+    color: #00aced;
+}
+
+#iwwFooter .btn {
+    color: white;
+    background-color: #d84b6b;
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+#iwwFooter h5{font-family: Tahoma, Geneva, sans-serif;}
+#iwwFooter a i.special{display: none;}
+#iwwFooter a:hover i.special{display: inherit;}
+
+@media screen and (max-width: 767px) {
+    #iwwFooter {
+        text-align: center;
+    }
+}
+/*End of new design*/
+
+
+
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #666;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 13px;
+	line-height: 1.5em; 
+	background-color: #eeeff3; background-repeat: repeat-x; background-position: top
+}
+
+#main { 
+	background-image: url(../images/webdesing_main.png); 
+}
+
+#subpage { 
+	background-image: url(../images/webdesign_sub.png); 
+}
+
+a, a:link, a:visited { 
+	color: #e5a100; 
+	font-weight: normal; 
+	text-decoration: none; 
+}
+
+a:hover { 
+	text-decoration: underline; 
+}
+
+a.more { 
+	display: block; 
+	width: 93px; 
+	height: 29px; 
+	line-height: 29px; 
+	color: #000; 
+	text-align: center; 
+	background: url(../images/webdesign_button.png) no-repeat; 
+	font-weight: 700; 
+	text-decoration: none; 
+}
+
+p { 
+	margin: 0 0 10px 0; 
+	padding: 0; 
+}
+
+img { border: none; }
+blockquote { font-style: italic; margin: 0 0 0 10px;}
+cite { font-weight: bold; color:#000; }
+cite a, cite a:link, cite a:visited  { font-weight: bold; color:#000; }
+cite span { font-weight: 400; color: #333; }
+em { color: #000; }
+
+h1, h2, h3, h4, h5, h6 { 
+	color: #000; 
+	font-weight: normal; 	
+	font-family: Georgia, "Times New Roman", Times, serif; 
+}
+
+h1 { font-size: 48px; margin: 0 0 30px; padding: 5px 0 }
+h2 { font-size: 38px; margin: 0 0 25px; padding: 5px 0; }
+h3 { font-size: 30px; margin: 0 0 20px; padding: 0; }
+h4 { font-size: 24px; margin: 0 0 15px; padding: 0; }
+h5 { font-size: 20px; margin: 0 0 10px; padding: 0;  }
+h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
+
+.cleaner { clear: both }
+.h10 { height: 10px }
+.h20 { height: 20px }
+.h30 { height: 30px }
+.h40 { height: 40px }
+.h50 { height: 50px }
+.h60 { height: 60px }
+
+.float_l { float: left }
+.float_r { float: right }
+
+.image_frame_300 { 
+	display: inline-block; 
+	position: relative; 
+	width: 300px; 
+	height: 147px; 
+	margin-bottom: 15px;
+}
+ 
+.image_frame_300 span { 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 300px; 
+	height: 147px; 
+	background: url(../images/image_frame_300.png); 
+}
+
+.image_frame_300 img { 
+	width: 300px; 
+	height: 135px; 
+}
+.image_frame_900 img { 
+	width: 900px; 
+	height: 405px; 
+}
+
+.image_fl { 
+	float: left; 
+	margin: 3px 30px 0 0; 
+}
+
+.image_fr { 
+	float: right; 
+	margin: 3px 0 0 30px; 
+}
+
+.lista { 
+	list-style: decimal-leading-zero; 
+	padding: 0 0 0 15px; 
+	margin: 0 0 0 15px; 
+}
+
+.lista li { 
+	color:#333; 
+	margin-bottom: 8px; 
+}
+
+.lista li a { 
+	color: #333; 
+	font-weight: normal; 
+	font-size: 12px; 
+	text-decoration: none; 
+}
+
+.lista li a:hover { 
+	text-decoration: underline; 
+}
+
+#container { 
+	width: 960px; 
+	padding: 0 10px; 
+	margin: 0 auto; 
+}
+
+#header {
+	width: 960px;
+	height: 90px;
+}
+
+#sitetitle { 
+	float: left; 
+	margin-top: 40px; 
+}
+
+#sitetitle h1 { 
+	margin: 0; 
+	padding: 0; 
+}
+
+#sitetitle h1 a { 
+	display: block; 
+	width: 203px; 
+	height: 33px; 
+	color: #fff; 
+	text-indent: -10000px; 
+	background: url(../images/webdesign.jpg) no-repeat top left; 
+}
+
+#menu { 
+	float: right; 
+	margin-top: 60px; 
+}
+
+#middle { 
+	clear: both;
+	position: relative;
+	width: 960px;
+	height: 360px;
+	padding: 30px 0;
+}
+
+#midtitle { 
+	font-size: 30px; 
+	font-weight: 400; 
+	line-height: 40px; 
+	color: #000; 
+	margin-bottom: 40px; 	
+	font-family: Georgia, "Times New Roman", Times, serif;  
+}
+
+#midtitle span { 
+	clear: both; 
+	display: block; 
+	color: #666; 
+	font-size: 30px; 
+}
+
+#midleft { 
+	float:left; 
+	width: 430px;
+}
+
+#mid_slider { 
+	float: right; 
+	width: 480px; 
+	height: 360px; 
+	padding-bottom: 22px; 
+	background: url(../images/webdesign_flash_presentation.png) bottom center no-repeat;  
+}
+
+#midleft p { 
+	color: #333; 
+	font-family: Tahoma, Geneva, sans-serif; 
+	margin-bottom: 30px; 
+	font-size: 16px; 
+	line-height: 26px; 
+}
+
+#iwwmain {
+	clear: both;
+	width: 960px;
+	padding: 20px 0 20px;
+}
+
+#iwwcontent {
+	float: left;
+	width: 600px;
+}
+
+#iwwmargin {
+	float: right;
+	width: 300px;
+}
+
+.col_fw { 
+	margin-bottom: 40px; 
+	padding-bottom: 30px; 
+	border-bottom: 1px dashed #999; 
+}
+
+.col_fw_last { 
+	padding-bottom: 20px; 
+}
+
+.col_w300 { 
+	width: 300px; 
+}
+
+.col_allw300 { 
+	float: left; 
+	width: 300px; 
+	margin-right: 30px; 
+}
+
+.col_w240 { 
+	float: left; 
+	width: 220px; 
+	padding-right: 20px; 
+}
+
+.col_w630 { 
+	width: 630px; 
+}
+
+.col_rm { 
+	margin: 0; 
+}
+
+.fp_service_box img { 
+	float: left; 
+	margin-right: 10px; 
+}
+
+.fp_service_box h3 { 
+	font-size: 20px; 
+	margin-bottom: 20px; 
+}
+
+.fp_service_box h3 span { 
+	clear: both; 
+	font-size: 14px; 
+	color: #999; 
+}
+
+.fp_service_box p { 
+	margin-bottom: 20px; 
+}
+
+.news_box {
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	border-bottom: 1px dashed #999
+}
+
+.news_box a { 
+	font-weight: 700;  
+}
+
+.post_box { 
+	clear: both; 
+	margin-bottom: 40px; 
+	padding-bottom: 30px; 
+	border-bottom: 1px dashed #999; 
+}
+
+.post_box img { 
+	padding: 4px; 
+	border: 1px solid #999; 
+	margin-bottom: 15px; 
+}
+
+.post_box img.default { 
+	padding: 0px !important; 
+	border: 0 !important;  
+}
+
+.post_box h2 { 
+	font-size: 34px; 
+	padding: 0 0 10px 0; 
+	margin-bottom: 5px; 
+	line-height: 34px; 
+}
+
+.post_meta { 
+	margin-bottom: 20px; 
+}
+
+#gallery { 
+	margin: 0; 
+	padding: 0; 
+}
+
+.gallery_box { 
+	display: block; 
+	float: center;
+	width: 900px; 
+	margin: 20px 30px 30px 20px;  
+}
+
+.lbox { 
+	margin-right: 0; 
+}
+
+.pagging { 
+	margin: 0 0 20px; 
+	padding: 0; 
+}
+
+.pagging ul { 
+	margin: 0; 
+	padding: 0; 
+	list-style: none; 
+}
+
+.pagging ul li { 
+	margin: 0; 
+	padding: 0; 
+	display: inline; 
+}
+
+.pagging ul li a { 
+	float: left; 
+	display: block; 
+	color: #333; 
+	text-decoration: none; 
+	margin-right: 5px; 
+	padding: 5px 10px; 
+	background-color: #EEEEEE; 
+	border: 1px solid #CCCCCC; 
+}
+
+.pagging ul li a:hover { 
+	background: #e5a100; 
+	color: #fff;  
+}
+
+#iwwcontact { 
+	padding: 0; 
+	width: 450px; 
+}
+
+#iwwcontact form { 
+	margin: 0px; 
+	padding: 0px; 
+}
+
+#iwwcontact form .input_field { 
+	width: 300px; 
+	padding: 5px; 
+	color: #222; 
+	border: 1px solid #a7a7a7;  
+	background: #e8e8e8; 
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+#iwwcontact form label { 
+	display: block; 
+	width: 100px; 
+	margin-right: 10px; 
+	font-size: 14px; 
+}
+
+#iwwcontact form textarea { 
+	width: 438px; 
+	height: 200px; 
+	padding: 5px; 
+	border: 1px solid #a7a7a7;  
+	background: #e8e8e8; 
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+#iwwcontact form .submit_btn { 
+	margin: 10px 0px;
+	padding: 5px 14px;
+	color: #222; 
+	border: 1px solid #a7a7a7;  
+	background: #e8e8e8; 
+	font-size:14px; 
+}
+
+#map img { border: 5px solid #fff }
+
+#footer_container {
+	clear: both;
+	width: 100%;
+	background: #000; /*url(images/webdesign_footer.png) top repeat-x;*/
+}
+
+#footer {
+	clear: both;
+	width: 960px;
+	padding: 30px 10px 15px;	
+	margin: 0 auto;
+	color: #666;
+	text-align: center;
+}
